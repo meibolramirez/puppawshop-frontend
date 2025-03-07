@@ -10,11 +10,11 @@
 <body class="font-[Roboto]">
     <div class="relative mx-auto max-w-auto h-[100px] w-full px-5 flex items-center justify-between">
         <!--Navbar Logo-->
-        <div class="flex flex-row md:gap-3 items-center">
-            <div class="bg-[#6C584C] flex justify-center w-20 h-14 p-2 md:w-14 md:h-14 rounded-full">
-                <img src="images/logo.svg"  alt="logo">
+        <div class="flex flex-row gap-2 items-center mr-5">
+            <div class="bg-[#6C584C] flex justify-center w-12 h-12 md:w-16 md:h-16 lg:w-14 lg:h-14 p-2 rounded-full">
+                <img src="images/logo-F0EAD2.png"  alt="logo">
             </div>
-            <div class="invisible md:visible">
+            <div class="hidden lg:block">
                 <h1 class="text-2xl font-semibold text-[#6C584C]">Pup Paw Shop</h1>
             </div>
         </div> 
@@ -23,7 +23,7 @@
 
         <form action="" class="w-full max-w-md">
             <div class="relative flex items-center text-[#A98467]">
-                <input type="text" name="search" placeholder="Buscar productos" autocomplete="off"
+                <input type="text" name="search" placeholder="Productos" autocomplete="off"
                     class="w-full px-3 py-2 placeholder-[#A98467] placeholder:text-sm text-[#A98467] rounded-2xl border-none ring-2 ring-[#6C584C] focus:ring-2 focus:ring-[#6C584C] focus:outline-none">
                 <button type="submit" class="absolute right-0 top-0 mt-2 mr-2">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
@@ -34,19 +34,20 @@
         </form>
 
         <!--Navbar Menu-->
-        <nav class="flex flex-row gap-5">
+        <nav class="flex flex-row gap-5 place-items-center ml-5">
             
-            <button class="font-semibold text-[#6C584C] hover:text-[#A98467] p-2 group cursor-pointer">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline-block">
+            <button class="flex items-center font-semibold text-[#6C584C] hover:text-[#A98467] group cursor-pointer">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-5">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
                   </svg>                                  
-                Mi Cuenta
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline-block">
+                <p class="hidden lg:block lg:text-sm xl:text-lg ml-1">Mi Cuenta</p>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-5">
                     <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                   </svg>
 
-                  <div class="z-10 dropdown-menu absolute h-auto w-auto text-sm scale-y-0 group-focus:scale-y-100 origin-top duration-200">
-                    <ul class="bg-white text-[#6C584C] font-semibold mt-2 p-1.5 shadow-lg">
+                  <div class="z-10 dropdown-menu absolute h-auto w-auto text-sm scale-y-0 group-focus:scale-y-100 mt-35 origin-top duration-200">
+                    <ul class="bg-white text-[#6C584C] font-semibold mt-2 p-2 shadow-lg">
                         <li>
                             <a href="#" class="flex py-3 px-5 whitespace-no-wrap hover:text-[#A98467] mb-1">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-4 mr-2">
@@ -54,7 +55,7 @@
                                   </svg>                                  
                                 Registrate
                             </a>
-                            <a href="#" class="flex py-3 px-5 whitespace-no-wrap bg-[#DDE5B6]  hover:bg-[#ADC178] mx-1 my-1 rounded-xl place-items-center">
+                            <a href="#" class="flex py-2 px-2 whitespace-no-wrap bg-[#DDE5B6]  hover:bg-[#ADC178] mx-1 my-1 rounded-xl place-items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2 " stroke="currentColor" class="size-4 mr-2">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                                   </svg>                                  
@@ -66,12 +67,12 @@
 
             </button>
             
-            <button class="font-semibold bg-[#ADC178] text-[#6C584C] rounded-xl px-2 p-2 cursor-pointer group">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline-block">
+            <button class="flex place-items-center font-semibold bg-[#ADC178] text-[#6C584C] rounded-xl px-2 p-2 cursor-pointer group">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
                   </svg>
-                Mi Carrito
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline-block">
+                <p class="hidden lg:block lg:text-sm xl:text-lg ml-1">Mi Carrito</p>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
                   </svg>
 
@@ -91,16 +92,17 @@
 
     <!-- Second Navbar-->
     <!--Navbar Container-->
-    <div class="relative mx-auto max-w-auto w-full h-12 px-14 flex items-center justify-between bg-[#6C584C]">
+    <div class="relative mx-auto max-w-auto w-full h-12 px-10 flex items-center justify-between bg-[#6C584C]">
         <!--Right menu-->
         <div class="flex flex-row items-center">
             <div class="group">
-                <a href="#" class="font-semibold uppercase text-[#F0EAD2]">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-7 inline-block">
+                <a href="#" class="flex place-items-center font-semibold uppercase text-[#F0EAD2]">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-7">
                         <path fill-rule="evenodd" d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
                     </svg>
-                    Categorias         
+                    <p class="hidden sm:block ml-2">Categorias</p>         
                 </a>
+
                 <div class="z-10 group-hover:block dropdown-menu absolute hidden h-auto w-auto">
                     <ul class="bg-[#F0EAD2] text-[#6C584C] font-semibold mt-2.5 pt-1 shadow-lg opacity-95">
                         <li>
@@ -122,6 +124,7 @@
                         </li>
                     </ul>
                 </div>
+
             </div>
         </div>
 
@@ -150,17 +153,17 @@
     </div>
 
     <!--Accessories-->
-    <div class="my-10 mx-24">
-        <div class="flex felx-row justify-between">
+    <div class="my-10 mx-15">
+        <div class="flex flex-row justify-between">
             <h2 class="text-2xl font-semibold text-[#6C584C] uppercase">Accesorios</h2>
-            <a href="#" class="text-[#6C584C] text-xl">                     
+            <a href="#" class="text-[#6C584C] text-lg">                     
                 Ver más
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 inline-block">
                     <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
                     </svg>                      
             </a>
         </div>
-        <div class="grid grid-flow-row grid-col-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 mt-5">
+        <div class="grid grid-flow-row grid-col-1 md:grid-cols-2 xl:grid-cols-4 gap-5 mt-5">
             <div class="shadow-lg">
                 <a href="#">
                     <img src="./images/accessories2.webp" />
@@ -176,13 +179,14 @@
                         <div class="bg-pink-600 h-5 w-5 rounded-full shadow-md mr-2 mt-3"></div>
                         <div class="bg-black h-5 w-5 rounded-full shadow-md mr-2 mt-3"></div>
                     </div>
-                    <div class="flex flex-row gap-1">
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">XXL</div>
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">XL</div>
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">L</div>
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">M</div>
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">S</div>
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">XS</div>
+
+                    <div class="relative flex flex-row gap-2 text-xs">
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">XXL</div>
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">XL</div>
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">L</div>
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">M</div>
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">S</div>
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">XS</div>
                     </div>
 
                     <div class="flex flex-row justify-between mt-5">
@@ -214,13 +218,14 @@
                         <div class="bg-pink-600 h-5 w-5 rounded-full shadow-md mr-2 mt-3"></div>
                         <div class="bg-black h-5 w-5 rounded-full shadow-md mr-2 mt-3"></div>
                     </div>
-                    <div class="flex flex-row gap-1">
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">XXL</div>
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">XL</div>
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">L</div>
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">M</div>
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">S</div>
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">XS</div>
+
+                    <div class="relative flex flex-row gap-2 text-xs">
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">XXL</div>
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">XL</div>
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">L</div>
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">M</div>
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">S</div>
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">XS</div>
                     </div>
 
                     <div class="flex flex-row justify-between mt-5">
@@ -252,13 +257,14 @@
                         <div class="bg-pink-600 h-5 w-5 rounded-full shadow-md mr-2 mt-3"></div>
                         <div class="bg-black h-5 w-5 rounded-full shadow-md mr-2 mt-3"></div>
                     </div>
-                    <div class="flex flex-row gap-1">
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">XXL</div>
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">XL</div>
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">L</div>
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">M</div>
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">S</div>
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">XS</div>
+
+                    <div class="relative flex flex-row gap-2 text-xs">
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">XXL</div>
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">XL</div>
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">L</div>
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">M</div>
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">S</div>
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">XS</div>
                     </div>
 
                     <div class="flex flex-row justify-between mt-5">
@@ -290,13 +296,14 @@
                         <div class="bg-pink-600 h-5 w-5 rounded-full shadow-md mr-2 mt-3"></div>
                         <div class="bg-black h-5 w-5 rounded-full shadow-md mr-2 mt-3"></div>
                     </div>
-                    <div class="flex flex-row gap-1">
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">XXL</div>
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">XL</div>
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">L</div>
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">M</div>
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">S</div>
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">XS</div>
+
+                    <div class="relative flex flex-row gap-2 text-xs">
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">XXL</div>
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">XL</div>
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">L</div>
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">M</div>
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">S</div>
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">XS</div>
                     </div>
 
                     <div class="flex flex-row justify-between mt-5">
@@ -316,17 +323,17 @@
 
 
     <!--Moda-->
-    <div class="my-10 mx-24">
-        <div class="flex felx-row justify-between">
+    <div class="my-10 mx-15">
+        <div class="flex flex-row justify-between">
             <h2 class="text-2xl font-semibold text-[#6C584C] uppercase">Moda</h2>
-            <a href="#" class="text-[#6C584C] text-xl">                     
+            <a href="#" class="text-[#6C584C] text-lg">                     
                 Ver más
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 inline-block">
                     <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
                   </svg>                      
             </a>
         </div>
-        <div class="grid grid-flow-row grid-col-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 mt-5">
+        <div class="grid grid-flow-row grid-col-1 md:grid-cols-2 xl:grid-cols-4 gap-10 mt-5">
             <div class="shadow-lg">
                 <a href="#">
                     <img src="./images/ropa-1.webp" />
@@ -342,13 +349,14 @@
                         <div class="bg-pink-600 h-5 w-5 rounded-full shadow-md mr-2 mt-3"></div>
                         <div class="bg-black h-5 w-5 rounded-full shadow-md mr-2 mt-3"></div>
                     </div>
-                    <div class="flex flex-row gap-1">
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">XXL</div>
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">XL</div>
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">L</div>
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">M</div>
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">S</div>
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">XS</div>
+
+                    <div class="relative flex flex-row gap-2 text-xs">
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">XXL</div>
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">XL</div>
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">L</div>
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">M</div>
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">S</div>
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">XS</div>
                     </div>
 
                     <div class="flex flex-row justify-between mt-5">
@@ -380,13 +388,14 @@
                         <div class="bg-pink-600 h-5 w-5 rounded-full shadow-md mr-2 mt-3"></div>
                         <div class="bg-black h-5 w-5 rounded-full shadow-md mr-2 mt-3"></div>
                     </div>
-                    <div class="flex flex-row gap-1">
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">XXL</div>
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">XL</div>
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">L</div>
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">M</div>
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">S</div>
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">XS</div>
+
+                    <div class="relative flex flex-row gap-2 text-xs">
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">XXL</div>
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">XL</div>
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">L</div>
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">M</div>
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">S</div>
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">XS</div>
                     </div>
 
                     <div class="flex flex-row justify-between mt-5">
@@ -418,13 +427,14 @@
                         <div class="bg-pink-600 h-5 w-5 rounded-full shadow-md mr-2 mt-3"></div>
                         <div class="bg-black h-5 w-5 rounded-full shadow-md mr-2 mt-3"></div>
                     </div>
-                    <div class="flex flex-row gap-1">
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">XXL</div>
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">XL</div>
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">L</div>
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">M</div>
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">S</div>
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">XS</div>
+
+                    <div class="relative flex flex-row gap-2 text-xs">
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">XXL</div>
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">XL</div>
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">L</div>
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">M</div>
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">S</div>
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">XS</div>
                     </div>
 
                     <div class="flex flex-row justify-between mt-5">
@@ -456,13 +466,14 @@
                         <div class="bg-pink-600 h-5 w-5 rounded-full shadow-md mr-2 mt-3"></div>
                         <div class="bg-black h-5 w-5 rounded-full shadow-md mr-2 mt-3"></div>
                     </div>
-                    <div class="flex flex-row gap-1">
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">XXL</div>
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">XL</div>
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">L</div>
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">M</div>
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">S</div>
-                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] text-sm rounded-md mt-3 px-2 py-1 mr-2">XS</div>
+
+                    <div class="relative flex flex-row gap-2 text-xs">
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">XXL</div>
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">XL</div>
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">L</div>
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">M</div>
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">S</div>
+                        <div class="border-2 border-[#DDE5B6] text-[#ADC178] shadow-md rounded-md mt-3 px-1.5 py-1.5">XS</div>
                     </div>
 
                     <div class="flex flex-row justify-between mt-5">
@@ -481,17 +492,17 @@
     </div>
 
     <!--Hygine-->
-    <div class="my-10 mx-24">
-        <div class="flex felx-row justify-between">
+    <div class="my-10 mx-15">
+        <div class="flex flex-row justify-between">
             <h2 class="text-2xl font-semibold text-[#6C584C] uppercase">Higiene</h2>
-            <a href="#" class="text-[#6C584C] text-xl">                     
+            <a href="#" class="text-[#6C584C] text-lg">                     
                 Ver más
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 inline-block">
                     <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
                   </svg>                      
             </a>
         </div>
-        <div class="grid grid-flow-row grid-col-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 mt-5">
+        <div class="grid grid-flow-row grid-col-1 md:grid-cols-2 xl:grid-cols-4 gap-10 mt-5">
             <div class="shadow-lg">
                 <a href="#">
                     <img src="./images/hygiene.jpg" />
