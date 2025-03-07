@@ -1,6 +1,10 @@
 # 🐾 Pup Paw Shop - Ecommerce Website
 
-**Pup Paw Shop** es un sitio web de comercio electrónico diseñado como parte del curso **Programing the Internet**. Este proyecto evolucionará cada semana, incorporando nuevas funciones y mejoras según las tareas del curso.
+**Pup Paw Shop** es un sitio web de comercio electrónico de productos varios para perros y perras.
+
+Está diseñado como parte de las asignaciones calificativas del curso de **Programing the Internet** del **Master en Software Engineering** de la **Broward International University**.
+
+Este proyecto evolucionará cada semana, incorporando nuevas funciones y mejoras según las asignaciones del curso.
 
 ## ⚙️ Instalación y configuración
 Para ejecutar este proyecto localmente:
@@ -14,7 +18,6 @@ cd ./src
 
 # Abrir index.html en el navegador
 ```
-
 
 ---
 
@@ -37,12 +40,14 @@ cd ./src
 
 ### Barras de navegación & Banner
 
+![Navbars y banner](https://github.com/meibolramirez/puppawshop-frontend/blob/features-sem2/screenshots/navbars-banner.png?raw=true)
+
 La primera barra de navegación contiene:
 - A la izquierda: El logo y nombre de la plataforma *Pup Paw Shop*
 - Al centro un buscador de productos
 - A la derecha: los botones de 'Mi cuenta', con opciones de 'Registrate' e 'Inicia sesión', y 'Mi carrito', que despliega una sección a la derecha que proximamente tendria el detalle de productos que el usuario haya colocado en el carrito.  
 
-![Navbars y banner](https://github.com/meibolramirez/puppawshop-frontend/blob/features-sem2/screenshots/navbars-banner.png?raw=true)
+![navbar1](https://github.com/user-attachments/assets/f5bf475e-a01d-4935-b436-5cd3750d4489)
 
 **Mi Cuenta**
 
@@ -62,6 +67,8 @@ Esta segunda barra de navegación cuenta con:
 - A la izquierda con el menú de las categorías de productos, que se activa al pasar el mouse sobre ésta.
 - A la derecha, con los accesos a las páginas de todos los 'Productos' y de todas las 'Ofertas' disponibles.
 
+![navbar2](https://github.com/user-attachments/assets/1094fb35-d3aa-41aa-9138-a4e1b293e58f)
+
 **Categorías**
 
 ![menu-categorias](https://github.com/meibolramirez/puppawshop-frontend/blob/features-sem2/screenshots/categorias-hover-dorpdownmenu.png?raw=true)
@@ -70,7 +77,7 @@ Esta segunda barra de navegación cuenta con:
 
 Esta es una sección dedicada a banners de ofertas y anuncions relevantes. Teniendo un diseño de mensaje de mercado de la tienda y un botón que a futuro redireccionará a la página de todos los productos.  
 
-![banner]()
+![banner](https://github.com/user-attachments/assets/08514fc4-82cb-48a6-885f-2c7d303b9f62)
 
 ### Grid productos principales por categoría
 
@@ -141,6 +148,8 @@ El diseño responde al tamaño de la pantalla:
 - El banner es solo texto y el botón, sin la imagen del perrito.
 
 ![medium-devices](https://github.com/meibolramirez/puppawshop-frontend/blob/features-sem2/screenshots/FullPage-MediumDevices.png?raw=true)
+
+![micarrito-md](https://github.com/user-attachments/assets/e51b9d85-8a51-45eb-b53e-1df7623ea11e)
 
 **Dispositivos grandes**
 
