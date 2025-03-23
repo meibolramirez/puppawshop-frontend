@@ -6,7 +6,7 @@ import SecondNavbar from "@/components/SecondNavbar"
 
 const home = () => {
   return (
-    <div>
+    <div> 
       <SecondNavbar />
       <Banner />
       <Fashion />

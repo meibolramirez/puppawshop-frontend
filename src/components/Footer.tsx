@@ -3,7 +3,7 @@ import Image from "next/image"
 
 const Footer = () => {
   return (
-    <div className="bg-[#6C584C] text-[#F0EAD2]">
+    <div className="w-screen bg-[#6C584C] text-[#F0EAD2]">
         <div className="container mx-auto py-5 px-5">
             <div className="grid grid-cols-1 place-items-center md:grid-cols-3 md:justify-evenly md:gap-7 gap-5">
                 
