@@ -13,6 +13,9 @@ Para ejecutar este proyecto localmente:
 # Clonar el repositorio
 git clone git@github.com:your-username/puppawshop-frontend.git
 
+#Instalar dependencias
+npm i
+
 # Ejecutar en local
 npm run dev
 ```
@@ -214,8 +217,13 @@ El formulario de registro recopila información del nuevo usuario. La validació
 
 Cada campo y regla de validación le presenta al usuario de manera dinámimica su mensaje de error correspondiente.
 
-**Media**
+**Formulario de Registro**
 
+![formsignup](https://github.com/meibolramirez/puppawshop-frontend/blob/features-sem3/public/images/screenshots/forms/signup-page-full.png?raw=true)
+
+**Demo de validaciones**
+
+https://github.com/user-attachments/assets/27549c5a-14fd-404f-a580-5681780519b3
 
 ---
 
